@@ -4,6 +4,9 @@ title: "Present"
 
 ```{r include=FALSE, echo=FALSE, message=FALSE, warning=FALSE}
 library(tidyverse)
+library("png")  
+library("patchwork") 
+
 ```
 
 
@@ -38,6 +41,8 @@ evtChart <-
                    labels = function(x) str_wrap(x, width = 18)) +
   coord_flip() +
   theme_bw(base_size = 14)
+
+
 
 evtChart
 ```
@@ -138,9 +143,22 @@ evcChart <-
   scale_fill_identity() +
   coord_flip() +
   theme_bw(base_size = 12)+
-  theme(legend.position = "none")
+  theme(legend.position = "none") +
+  annotation_custom(evc_map, xmax = 0.5, ymax = 0.5)
+
 
 evcChart
+
+evc_map <- readPNG("images/evc.png", native = TRUE)
+
+evc_chart_map <- evcChart +
+  inset_element(p = evc_map,
+                left = 0.6,
+                bottom = 0.01,
+                right = 0.98,
+                top = 0.5
+                )
+evc_chart_map
 
 ```
 
