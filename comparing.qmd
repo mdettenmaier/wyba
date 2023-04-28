@@ -1,5 +1,5 @@
 ---
-title: "Comparisons"
+title: "Comparing Past vs. Present Conditions"
 ---
 
 ```{r include=FALSE, echo=FALSE, message=FALSE, warning=FALSE}
@@ -12,7 +12,9 @@ library(tidyverse)
 
 ```
 
-Outputs on this page compare "Past" conditions with "Present" conditions.  Results here are intended for exploration and illumination of issues to explore further.  As noted on the "Present" page there are differences in the classification scheme so direct comparisons should be viewed with caution.  
+This page explores the concept of landscape conversion by comparing historical ecosystems (LANDFIRE BpSs) to current conditions represented by LANDFIRE Vegetation layers. These broad tools can be used to visualize the changes that have taken place within the Wyoming Sagebrush Subregion of the SRFSN. 
+
+?WHAT DOES THIS MEAN - ? As noted on the "Present" page there are differences in the classification scheme so direct comparisons should be viewed with caution.  
 
 ## Summary
  

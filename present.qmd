@@ -10,14 +10,22 @@ library("patchwork")
 ```
 
 
-All outputs on this page generated with the most recent LANDFIRE [Existing Vegetation Type, Cover and Height](https://landfire.gov/vegetation.php){target="blank"} datasets, which represent conditions on the ground in 2020.  
+LANDFIRE's [Existing Vegetation Type, Cover and Height](https://landfire.gov/vegetation.php){target="blank"} datasets describe vegetation conditions. 
+
+* EVT layer represents the current distribution of the terrestrial ecological systems classification, developed by NatureServe for the western hemisphere, through 2016
+* EVC layer represents the vertically projected percent cover of the live canopy layer for a 30-m cell
+* EVH layer represents the average height of the dominant vegetation for a 30-m cell
+
+[Read more about LANDFIRE Vegetation Products](https://landfire.gov/vegetation.php){target="blank"}
 
 
 ## Summary
 
+* Not surprisingly, shrub cover is dominant in this subregion with most shrub height(s) concentrated between .5 m and .9 m
+* 
+* 
 
-
-## Chart of most prevalent Existing Vegetation Types
+## Most Prevalent Existing Vegetation Types
 
 ```{r evt chart, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
 evtname <- read.csv(file = "data/evt_aoi_attributes.csv") %>%
@@ -49,7 +57,7 @@ evtChart
 
 <br>
 
-## Map of most prevalent Existing Vegetation Types
+## Most Prevalent Existing Vegetation Types
 
 <br>
 
@@ -58,7 +66,7 @@ evtChart
 <br>
 
 
-## Chart of Existing Vegetation Cover
+## Existing Vegetation Cover
 
 ```{r evc chart, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
 evcname <- read.csv("data/evc_aoi_attributes.csv")
@@ -164,11 +172,11 @@ evc_chart_map
 
 <br>
 
-## Map of Existing Vegetation Cover
+## Existing Vegetation Cover
 
 ![](images/evc.jpg){width=100%}
 
-## Chart of Existing Vegetation Height
+## Existing Vegetation Height
 
 ```{r evh chart, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
 
@@ -276,7 +284,7 @@ evhChart
 
 <br>
 
-## Map of Existing Vegetation Height
+## Existing Vegetation Height
 
 ![](images/evh.jpg){width=100%}
 
