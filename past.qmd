@@ -1,9 +1,11 @@
 ---
 title: "Past"
 ---
-LANDFIRE's Biophysical Settings (BpSs, aka "Historical Ecosystems") represent 
+LANDFIRE's Biophysical Settings (BpSs, aka "Historical Ecosystems") represent:
 
-"_...the vegetation system that may have been dominant on the landscape prior to Euro-American settlement. BpS models are based on both the current biophysical environment and an approximation of the historical disturbance regime_." - [Read more](https://landfire.gov/bps.php){target="blank"}.
+>"_...the vegetation system that may have been dominant on the landscape prior to Euro-American settlement. BpS models are based on both the current biophysical environment and an approximation of the historical disturbance regime_." 
+>
+> --- [Read more](https://landfire.gov/bps.php){target="blank"}.
 
 Check out this 3-minute tutorial for a quick refresher on the [basics of Biophysical Settings Models](https://youtu.be/xjaWJCe7udQ){target="blank"}.
 
