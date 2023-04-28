@@ -148,16 +148,6 @@ evcChart <-
 
 evcChart
 
-evc_map <- readPNG("images/evc.png", native = TRUE)
-
-evc_chart_map <- evcChart +
-  inset_element(p = evc_map,
-                left = 0.6,
-                bottom = 0.02,
-                right = 0.98,
-                top = 0.5
-                )
-evc_chart_map
 
 ```
 
