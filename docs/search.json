@@ -137,14 +137,14 @@
     "href": "present.html",
     "title": "Present",
     "section": "",
-    "text": "All outputs on this page generated with the most recent LANDFIRE Existing Vegetation Type, Cover and Height datasets, which represent conditions on the ground in 2020."
+    "text": "LANDFIRE’s Existing Vegetation Type, Cover and Height datasets describe vegetation conditions.\nRead more about LANDFIRE Vegetation Products"
   },
   {
     "objectID": "present.html#summary",
     "href": "present.html#summary",
     "title": "Present",
     "section": "Summary",
-    "text": "Summary"
+    "text": "Summary\n\nNot surprisingly, shrub cover is dominant in this subregion with most shrub height(s) concentrated between .5 m and .9 m"
   },
   {
     "objectID": "present.html#chart-of-most-prevalent-existing-vegetation-types",
@@ -187,5 +187,47 @@
     "title": "Present",
     "section": "Map of Existing Vegetation Height",
     "text": "Map of Existing Vegetation Height"
+  },
+  {
+    "objectID": "present.html#most-prevalent-existing-vegetation-types",
+    "href": "present.html#most-prevalent-existing-vegetation-types",
+    "title": "Present",
+    "section": "Most Prevalent Existing Vegetation Types",
+    "text": "Most Prevalent Existing Vegetation Types"
+  },
+  {
+    "objectID": "present.html#most-prevalent-existing-vegetation-types-1",
+    "href": "present.html#most-prevalent-existing-vegetation-types-1",
+    "title": "Present",
+    "section": "Most Prevalent Existing Vegetation Types",
+    "text": "Most Prevalent Existing Vegetation Types"
+  },
+  {
+    "objectID": "present.html#existing-vegetation-cover",
+    "href": "present.html#existing-vegetation-cover",
+    "title": "Present",
+    "section": "Existing Vegetation Cover",
+    "text": "Existing Vegetation Cover\nThe data from chart below is displayed spatially on the map (directly) below the chart. The colors on the graph correspond to the EVC classifications on the landscape."
+  },
+  {
+    "objectID": "present.html#existing-vegetation-cover-1",
+    "href": "present.html#existing-vegetation-cover-1",
+    "title": "Present",
+    "section": "Existing Vegetation Cover",
+    "text": "Existing Vegetation Cover\nThe map below is a visual, spatial representation of the information on the chart above. For example, the majority of this subregion is classified as “shrub,” which aligns with the information conveyed on the chart (above) where shrub cover comprises approximately 80% of the vegetation in this subregion."
+  },
+  {
+    "objectID": "present.html#existing-vegetation-height",
+    "href": "present.html#existing-vegetation-height",
+    "title": "Present",
+    "section": "Existing Vegetation Height",
+    "text": "Existing Vegetation Height"
+  },
+  {
+    "objectID": "present.html#existing-vegetation-height-1",
+    "href": "present.html#existing-vegetation-height-1",
+    "title": "Present",
+    "section": "Existing Vegetation Height",
+    "text": "Existing Vegetation Height"
   }
 ]
