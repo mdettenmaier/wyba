@@ -10,22 +10,14 @@ library("patchwork")
 ```
 
 
-LANDFIRE's [Existing Vegetation Type, Cover and Height](https://landfire.gov/vegetation.php){target="blank"} datasets describe vegetation conditions. 
-
-* EVT layer represents the current distribution of the terrestrial ecological systems classification, developed by NatureServe for the western hemisphere, through 2016
-* EVC layer represents the vertically projected percent cover of the live canopy layer for a 30-m cell
-* EVH layer represents the average height of the dominant vegetation for a 30-m cell
-
-[Read more about LANDFIRE Vegetation Products](https://landfire.gov/vegetation.php){target="blank"}
+All outputs on this page generated with the most recent LANDFIRE [Existing Vegetation Type, Cover and Height](https://landfire.gov/vegetation.php){target="blank"} datasets, which represent conditions on the ground in 2020.  
 
 
 ## Summary
 
-* Not surprisingly, shrub cover is dominant in this subregion with most shrub height(s) concentrated between .5 m and .9 m
-* 
-* 
 
-## Most Prevalent Existing Vegetation Types
+
+## Chart of most prevalent Existing Vegetation Types
 
 ```{r evt chart, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
 evtname <- read.csv(file = "data/evt_aoi_attributes.csv") %>%
@@ -57,7 +49,7 @@ evtChart
 
 <br>
 
-## Most Prevalent Existing Vegetation Types
+## Map of most prevalent Existing Vegetation Types
 
 <br>
 
@@ -66,7 +58,7 @@ evtChart
 <br>
 
 
-## Existing Vegetation Cover
+## Chart of Existing Vegetation Cover
 
 ```{r evc chart, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
 evcname <- read.csv("data/evc_aoi_attributes.csv")
@@ -151,8 +143,7 @@ evcChart <-
   scale_fill_identity() +
   coord_flip() +
   theme_bw(base_size = 12)+
-  theme(legend.position = "none") +
-  annotation_custom(evc_map, xmax = 0.5, ymax = 0.5)
+  theme(legend.position = "none") 
 
 
 evcChart
@@ -162,7 +153,7 @@ evc_map <- readPNG("images/evc.png", native = TRUE)
 evc_chart_map <- evcChart +
   inset_element(p = evc_map,
                 left = 0.6,
-                bottom = 0.01,
+                bottom = 0.02,
                 right = 0.98,
                 top = 0.5
                 )
@@ -172,11 +163,11 @@ evc_chart_map
 
 <br>
 
-## Existing Vegetation Cover
+## Map of Existing Vegetation Cover
 
 ![](images/evc.jpg){width=100%}
 
-## Existing Vegetation Height
+## Chart of Existing Vegetation Height
 
 ```{r evh chart, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
 
@@ -284,7 +275,7 @@ evhChart
 
 <br>
 
-## Existing Vegetation Height
+## Map of Existing Vegetation Height
 
 ![](images/evh.jpg){width=100%}
 

@@ -63,25 +63,25 @@
     "text": "We will use LANDFIRE products to:\n\nMap and summarize past and present ecosystems and ecosystem conditions\nExplore historical disturbance regimes\nSummarize patterns of change and management opportunities\n\nThe following charts, maps, and graphs are based on current LANDFIRE products, however they are intended only as a starting point for further analysis.\nThis introduction will:\n\nprovide context for the past and present ecosystem conditions for each Southern Rockies Fire Science Network (SRFSN) “Subregion” (n=5)\ndemonstrate the power of data visualization to explore ecological patterns and functions using LANDFIRE products\nfacilitate an understanding of historical and current conditions on a regional scale"
   },
   {
-    "objectID": "index.html#interacting-with-this-web-report",
-    "href": "index.html#interacting-with-this-web-report",
-    "title": "Wyoming Basin LF Demo",
-    "section": "Interacting with this web report",
-    "text": "Interacting with this web report\nA few notes about using this report:\n\nAs of April 19, 2023 there has been no QAQC. This is a demo only.\nThis platform is web-hosted so you can simply share a link with collaborators for their review.\n\nMaps and charts are intended to represent general patterns, and are almost always limited to most common types (e.g., ecosystems). You can use the “zoom” tool to take a closer look.\nAll maps, input datasets and further assistance can be obtained by contacting the author, Randy Swaty."
+    "objectID": "index.html#how-to-use-this-web-report",
+    "href": "index.html#how-to-use-this-web-report",
+    "title": "Wyoming Sagebrush Subregion LF Demo",
+    "section": "How to use this web report",
+    "text": "How to use this web report\n\nQAQC is ongoing\nWant to share this web app? Simply share the hyperlink\nAll maps, input datasets and further assistance can be obtained by contacting the author, Randy Swaty"
   },
   {
-    "objectID": "index.html#location-of-this-assessment",
-    "href": "index.html#location-of-this-assessment",
-    "title": "Wyoming Basin LF Demo",
-    "section": "Location of this assessment",
-    "text": "Location of this assessment"
+    "objectID": "index.html#assessment-location",
+    "href": "index.html#assessment-location",
+    "title": "Wyoming Sagebrush Subregion LF Demo",
+    "section": "Assessment Location",
+    "text": "Assessment Location\nThe SRFSN Wyoming Sagebrush Subregion is located in Central/South central Wyoming and far northwestern Colorado Read more"
   },
   {
     "objectID": "past.html",
     "href": "past.html",
     "title": "Past",
     "section": "",
-    "text": "LANDFIRE’s Biophysical Settings (BpSs, aka “Historical Ecosystems”) represent\nCheck out this 3-minute tutorial for a quick refresher on the basics of Biophysical Settings Models.\nUse this page as a starting point to explore the most prevalent BpSs in the SRFSN Wyoming Sagebrush Subregion. In addition to the charts and maps, the historical disturbance data can be directly accessed using this site."
+    "text": "LANDFIRE’s Biophysical Settings (BpSs, aka “Historical Ecosystems”) represent:\nCheck out this 3-minute tutorial for a quick refresher on the basics of Biophysical Settings Models.\nUse this page as a starting point to explore the most prevalent BpSs in the SRFSN Wyoming Sagebrush Subregion. In addition to the charts and maps, the historical disturbance data can be directly accessed using this site."
   },
   {
     "objectID": "past.html#summary",
@@ -91,39 +91,39 @@
     "text": "Summary\n\nPrior to European colonization, the most dominant vegetation system for this region was once Inter-Mountain Basins Big Sagebrush Shrubland-Wyoming Big Sagebrush. This system also burned on average 4x more than the next most common ecosystem (Inter-Mountain Basins Montane Sagebrush Steppe)\nWithin this subregion, the most prevalent LANDFIRE Mean Fire Return Interval (from BpS) was 76-100 years\nScroll down to explore the “historical disturbances per ecosystem” using the interactive web app"
   },
   {
-    "objectID": "past.html#chart-of-most-prevalent-biophysical-settings",
-    "href": "past.html#chart-of-most-prevalent-biophysical-settings",
+    "objectID": "past.html#top-10-biophysical-settings",
+    "href": "past.html#top-10-biophysical-settings",
     "title": "Past",
-    "section": "Chart of most prevalent Biophysical Settings",
-    "text": "Chart of most prevalent Biophysical Settings"
+    "section": "Top 10 Biophysical Settings",
+    "text": "Top 10 Biophysical Settings"
   },
   {
-    "objectID": "past.html#map-of-most-prevalent-biophysical-settings",
-    "href": "past.html#map-of-most-prevalent-biophysical-settings",
+    "objectID": "past.html#most-prevalent-biophysical-settings",
+    "href": "past.html#most-prevalent-biophysical-settings",
     "title": "Past",
-    "section": "Map of most prevalent Biophysical Settings",
-    "text": "Map of most prevalent Biophysical Settings"
+    "section": "Most Prevalent Biophysical Settings",
+    "text": "Most Prevalent Biophysical Settings"
   },
   {
-    "objectID": "past.html#chart-of-historic-annual-acres-burned-per-ecosystem",
-    "href": "past.html#chart-of-historic-annual-acres-burned-per-ecosystem",
+    "objectID": "past.html#historic-annual-acres-burned-per-ecosystem",
+    "href": "past.html#historic-annual-acres-burned-per-ecosystem",
     "title": "Past",
-    "section": "Chart of historic annual acres burned per ecosystem",
-    "text": "Chart of historic annual acres burned per ecosystem"
+    "section": "Historic Annual Acres Burned (per ecosystem)",
+    "text": "Historic Annual Acres Burned (per ecosystem)"
   },
   {
-    "objectID": "past.html#simplified-map-of-historical-fire-regimes",
-    "href": "past.html#simplified-map-of-historical-fire-regimes",
+    "objectID": "past.html#top-historical-fire-regimes",
+    "href": "past.html#top-historical-fire-regimes",
     "title": "Past",
-    "section": "Simplified map of historical fire regimes",
-    "text": "Simplified map of historical fire regimes"
+    "section": "Top Historical Fire Regimes",
+    "text": "Top Historical Fire Regimes"
   },
   {
-    "objectID": "past.html#all-historical-disturbances-per-ecosystem",
-    "href": "past.html#all-historical-disturbances-per-ecosystem",
+    "objectID": "past.html#historical-disturbances-per-ecosystem",
+    "href": "past.html#historical-disturbances-per-ecosystem",
     "title": "Past",
-    "section": "All historical disturbances per ecosystem",
-    "text": "All historical disturbances per ecosystem\n\n\n\n\n\n\nSelect ecosystem"
+    "section": "Historical Disturbances (per ecosystem)",
+    "text": "Historical Disturbances (per ecosystem)\n\n\n\n\n\n\nSelect ecosystem"
   },
   {
     "objectID": "past.html#data-table",
@@ -137,14 +137,14 @@
     "href": "present.html",
     "title": "Present",
     "section": "",
-    "text": "LANDFIRE’s Existing Vegetation Type, Cover and Height datasets describe vegetation conditions.\nRead more about LANDFIRE Vegetation Products"
+    "text": "All outputs on this page generated with the most recent LANDFIRE Existing Vegetation Type, Cover and Height datasets, which represent conditions on the ground in 2020."
   },
   {
     "objectID": "present.html#summary",
     "href": "present.html#summary",
     "title": "Present",
     "section": "Summary",
-    "text": "Summary\n\nNot surprisingly, shrub cover is dominant in this subregion with most shrub height(s) concentrated between .5 m and .9 m"
+    "text": "Summary"
   },
   {
     "objectID": "present.html#chart-of-most-prevalent-existing-vegetation-types",
@@ -187,96 +187,5 @@
     "title": "Present",
     "section": "Map of Existing Vegetation Height",
     "text": "Map of Existing Vegetation Height"
-  },
-  {
-    "objectID": "index.html#how-to-use-this-web-report",
-    "href": "index.html#how-to-use-this-web-report",
-    "title": "Wyoming Sagebrush Subregion LF Demo",
-    "section": "How to use this web report",
-    "text": "How to use this web report\n\nQAQC is ongoing\nWant to share this web app? Simply share the hyperlink\nAll maps, input datasets and further assistance can be obtained by contacting the author, Randy Swaty"
-  },
-  {
-    "objectID": "index.html#assessment-location",
-    "href": "index.html#assessment-location",
-    "title": "Wyoming Sagebrush Subregion LF Demo",
-    "section": "Assessment Location",
-    "text": "Assessment Location\nThe SRFSN Wyoming Sagebrush Subregion is located in Central/South central Wyoming and far northwestern Colorado Read more"
-  },
-  {
-    "objectID": "past.html#top-10-biophysical-settings",
-    "href": "past.html#top-10-biophysical-settings",
-    "title": "Past",
-    "section": "Top 10 Biophysical Settings",
-    "text": "Top 10 Biophysical Settings"
-  },
-  {
-    "objectID": "past.html#most-prevalent-biophysical-settings",
-    "href": "past.html#most-prevalent-biophysical-settings",
-    "title": "Past",
-    "section": "Most Prevalent Biophysical Settings",
-    "text": "Most Prevalent Biophysical Settings"
-  },
-  {
-    "objectID": "past.html#historic-annual-acres-burned-per-ecosystem",
-    "href": "past.html#historic-annual-acres-burned-per-ecosystem",
-    "title": "Past",
-    "section": "Historic Annual Acres Burned (per ecosystem)",
-    "text": "Historic Annual Acres Burned (per ecosystem)"
-  },
-  {
-    "objectID": "past.html#top-historical-fire-regimes",
-    "href": "past.html#top-historical-fire-regimes",
-    "title": "Past",
-    "section": "Top Historical Fire Regimes",
-    "text": "Top Historical Fire Regimes"
-  },
-  {
-    "objectID": "past.html#historical-disturbances-per-ecosystem",
-    "href": "past.html#historical-disturbances-per-ecosystem",
-    "title": "Past",
-    "section": "Historical Disturbances (per ecosystem)",
-    "text": "Historical Disturbances (per ecosystem)\n\n\n\n\n\n\nSelect ecosystem"
-  },
-  {
-    "objectID": "present.html#most-prevalent-existing-vegetation-types",
-    "href": "present.html#most-prevalent-existing-vegetation-types",
-    "title": "Present",
-    "section": "Most Prevalent Existing Vegetation Types",
-    "text": "Most Prevalent Existing Vegetation Types"
-  },
-  {
-    "objectID": "present.html#most-prevalent-existing-vegetation-types-1",
-    "href": "present.html#most-prevalent-existing-vegetation-types-1",
-    "title": "Present",
-    "section": "Most Prevalent Existing Vegetation Types",
-    "text": "Most Prevalent Existing Vegetation Types"
-  },
-  {
-    "objectID": "present.html#existing-vegetation-cover",
-    "href": "present.html#existing-vegetation-cover",
-    "title": "Present",
-    "section": "Existing Vegetation Cover",
-    "text": "Existing Vegetation Cover"
-  },
-  {
-    "objectID": "present.html#existing-vegetation-cover-1",
-    "href": "present.html#existing-vegetation-cover-1",
-    "title": "Present",
-    "section": "Existing Vegetation Cover",
-    "text": "Existing Vegetation Cover"
-  },
-  {
-    "objectID": "present.html#existing-vegetation-height",
-    "href": "present.html#existing-vegetation-height",
-    "title": "Present",
-    "section": "Existing Vegetation Height",
-    "text": "Existing Vegetation Height"
-  },
-  {
-    "objectID": "present.html#existing-vegetation-height-1",
-    "href": "present.html#existing-vegetation-height-1",
-    "title": "Present",
-    "section": "Existing Vegetation Height",
-    "text": "Existing Vegetation Height"
   }
 ]
