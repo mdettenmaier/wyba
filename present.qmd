@@ -163,7 +163,7 @@ evcChart
 <br>
 
 ## Existing Vegetation Cover
-The map below is a visual, spatial representation of the information on the chart above. For example, the majority of this subregion is classified as "shrub," which aligns with the information conveyed on the chart (above) where shrub cover comprises approximately 80% of the vegetation in this subregion.
+The map below is a visual, spatial representation of the information on the chart above. For example, the majority of this subregion is classified as "shrub," which aligns with the information conveyed on the chart (above) where shrub cover comprises approximately 80% of the vegetation here.
 
 ![](images/evc.jpg){width=100%}
 
