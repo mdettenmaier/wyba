@@ -67,7 +67,9 @@ evtChart
 
 
 ## Existing Vegetation Cover
-The data from chart below is displayed spatially on the map (directly) below the chart. The colors on the graph correspond to the EVC classifications on the landscape.  
+The data from chart below is displayed spatially on the map (directly) below the chart. The colors on the graph correspond to the EVC classifications on the landscape and the map is a visual, spatial representation of the same information.
+
+For example, the majority of this subregion is classified as "shrub," which aligns with the information conveyed on the chart (above) where shrub cover comprises approximately 80% of the vegetation here.
 
 ```{r evc chart, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
 evcname <- read.csv("data/evc_aoi_attributes.csv")
@@ -159,16 +161,11 @@ evcChart
 
 
 ```
-
+![](images/evc.jpg){width=100%}
 <br>
 
-## Existing Vegetation Cover
-The map below is a visual, spatial representation of the information on the chart above. For example, the majority of this subregion is classified as "shrub," which aligns with the information conveyed on the chart (above) where shrub cover comprises approximately 80% of the vegetation here.
-
-![](images/evc.jpg){width=100%}
-
 ## Existing Vegetation Height
-
+The data from chart below is displayed spatially on the map (directly) below the chart. The colors on the graph correspond to the EVH height classifications on the landscape showing how majority of the the vegetation height is concentrated in the .25-.9 m height category.
 ```{r evh chart, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
 
 # load evh attribute table
@@ -273,10 +270,4 @@ evhChart
 
 ```
 
-<br>
-
-## Existing Vegetation Height
-
 ![](images/evh.jpg){width=100%}
-
-
