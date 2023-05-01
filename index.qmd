@@ -1,5 +1,5 @@
 ---
-title: "Wyoming Sagebrush Subregion LF Demo"
+title: "Wyoming Sagebrush Subregion Landscape Assessment"
 author: "Team LF"
 ---
 
