@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.335">
+<meta name="generator" content="quarto-1.1.189">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -81,24 +81,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">
- <span class="menu-text">Home</span></a>
+    <a class="nav-link" href="./index.html">Home</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./past.html">
- <span class="menu-text">Past</span></a>
+    <a class="nav-link" href="./past.html">Past</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./present.html" aria-current="page">
- <span class="menu-text">Present</span></a>
+    <a class="nav-link active" href="./present.html" aria-current="page">Present</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./comparing.html">
- <span class="menu-text">Comparing</span></a>
+    <a class="nav-link" href="./comparing.html">Comparing</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html">
- <span class="menu-text">About</span></a>
+    <a class="nav-link" href="./about.html">About</a>
   </li>  
 </ul>
               <div class="quarto-toggle-container">
@@ -139,7 +134,6 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
-  
     
   </div>
   
@@ -165,7 +159,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="most-prevalent-existing-vegetation-types">Most Prevalent Existing Vegetation Types</h2>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="present_files/figure-html/evt chart-1.png" class="img-fluid" width="960"></p>
+<p><img src="present_files/figure-html/evt%20chart-1.png" class="img-fluid" width="960"></p>
 </div>
 </div>
 <p><br></p>
@@ -182,7 +176,7 @@ ul.task-list li input[type="checkbox"] {
 <p>For example, the majority of this subregion is classified as “shrub,” which aligns with the information conveyed on the chart (above) where shrub cover comprises approximately 80% of the vegetation here.</p>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="present_files/figure-html/evc chart-1.png" class="img-fluid" width="960"></p>
+<p><img src="present_files/figure-html/evc%20chart-1.png" class="img-fluid" width="960"></p>
 </div>
 </div>
 <p><img src="images/evc.jpg" class="img-fluid" style="width:100.0%"> <br></p>
@@ -192,7 +186,7 @@ ul.task-list li input[type="checkbox"] {
 <p>The data from chart below is displayed spatially on the map (directly) below the chart. The colors on the graph correspond to the EVH height classifications on the landscape showing how majority of the the vegetation height is concentrated in the .25-.9 m height category.</p>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="present_files/figure-html/evh chart-1.png" class="img-fluid" width="960"></p>
+<p><img src="present_files/figure-html/evh%20chart-1.png" class="img-fluid" width="960"></p>
 </div>
 </div>
 <p><img src="images/evh.jpg" class="img-fluid" style="width:100.0%"></p>
@@ -333,9 +327,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   // Switch to dark mode if need be
   if (hasAlternateSentinel()) {
     toggleColorMode(true);
-  } else {
-    toggleColorMode(false);
-  }
+  } 
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
@@ -357,24 +349,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
     setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
-      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -410,42 +385,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
-    }
-  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
-          }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
       });
-    }
+      return popup.innerHTML;
+    });
   }
 });
 </script>
