@@ -22,8 +22,7 @@ LANDFIRE's [Existing Vegetation Type, Cover and Height](https://landfire.gov/veg
 ## Summary
 
 * Not surprisingly, shrub cover is dominant in this subregion with most shrub height(s) concentrated between .5 m and .9 m
-* 
-* 
+* More than 60% of the landscape is dominated by sagebrush EVT
 
 ## Most Prevalent Existing Vegetation Types
 
@@ -41,8 +40,7 @@ evtChart <-
   geom_bar(stat = "identity") +
   labs(
     title = "Top 10 Existing Vegetation Types",
-    subtitle = "Represents dominant vegetation systems ca2020",
-    caption = "\nData from landfire.gov.",
+    caption = "Data from landfire.gov; Chart © Randy Swaty",
     x = "",
     y = "Percent of landscape") +
   scale_x_discrete(limits = rev(evtname$EVT_NAME),
@@ -147,8 +145,7 @@ evcChart <-
   geom_bar(stat = "identity") +
   labs(
     title = "Existing Vegetation Cover",
-    subtitle = "Represents canopy cover per dominant lifeform, ca 2020",
-    caption = "\nData from landfire.gov.",
+    caption = "Data from landfire.gov; Chart © Randy Swaty",
     x = "",
     y = "Percent of landscape") +
   scale_fill_identity() +
@@ -235,8 +232,7 @@ ggplot(data = evhgroup, aes(x = label, y = REL_PERCENT, fill = colors)) +
   geom_bar(stat = "identity") +
   labs(
     title = "Existing Vegetation Height",
-    subtitle = "Represents canopy height of dominant lifeform ca2020",
-    caption = "\nData from landfire.gov.",
+    caption = "Data from landfire.gov; Chart © Randy Swaty",
     x = "",
     y = "Percent of landscape") +
   scale_fill_identity() +

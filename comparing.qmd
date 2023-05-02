@@ -12,20 +12,13 @@ library(tidyverse)
 
 ```
 
-This page explores the concept of landscape conversion by comparing historical ecosystems (LANDFIRE BpSs) to current conditions represented by LANDFIRE Vegetation layers. These broad tools can be used to visualize the changes that have taken place within the Wyoming Sagebrush Subregion of the SRFSN. 
+Using LANDFIRE's BpS products, we explore two different ways to visualize past vs.current vegetation patterns. First we present **changes in broad ecosystem types** using an interactive chord diagram. Second we compare **amounts of succession classes** (past and present) for the most prevalent ecosystems. 
 
-?WHAT DOES THIS MEAN - ? As noted on the "Present" page there are differences in the classification scheme so direct comparisons should be viewed with caution.  
+## Chord Diagram
+### Quick Summary
 
-## Summary
- 
-
-## Looking at broad changes, vegetation conversion
-
-This interactive 'chord' diagram allows you to explore changes on the landscape.  To use:
-
-* Hover over the outer bands to see connections.  For example, if you over over the dark green outer band of the "Past Conifer" group you can see that some is now mapped as converted, some hardwood, etc., and that the majority is still mapped as conifer.
-* Alternatively, if you hover over the orange outer band of "Hardwood" you can see what the present extent of hardwoods vegetation was historically.
-* The popups contain acres for the band.
+* broadly speaking, this subregion has not experienced significant ecosystem changes as evidenced by the Shrubland ecosystem type - 25,195,980 acres (when compared with Past Shrubland ecosystem type - 28,047,610 acres)
+* roughly 5 % of the entire subregion's landscape was converted from riparian and shrubland ecosystems to present day agriculture
 
 ```{r chord, echo=FALSE, message=FALSE, warning=FALSE, include=FALSE}
 # read in data
@@ -92,8 +85,11 @@ htmlwidgets::saveWidget(chord,
 
 <br>
 
-## Succession classes for most dominant Biophysical Settings
-
+## Succession classes for most dominant BpSs
+### Quick Summary
+- For the BpS presented here there is an under representation of early successional classes (across all ecosystems)
+- Inter-Mountain Basins Mat Saltbrush Shrubland / Montane Sagebrush Steppe both have substantial amounts of uncharacteristic native vegetation (which could be associated with Pinyon Juniper encroachment in the region @Kori)
+- Rocky Mountain Montane Riparian Systems have the highest level of agriculture 
 
 
 ```{r scls chart, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=9}

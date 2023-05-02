@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.1.189">
+<meta name="generator" content="quarto-1.2.335">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -59,7 +59,7 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script src="site_libs/htmlwidgets-1.6.2/htmlwidgets.js"></script>
+<script src="site_libs/htmlwidgets-1.6.1/htmlwidgets.js"></script>
 <script src="site_libs/d3-4.13.0/d3.min.js"></script>
 <script src="site_libs/d3-tip-0.8.1/index.js"></script>
 <link href="site_libs/chorddiag-0.1.2.9000/chorddiag.css" rel="stylesheet">
@@ -86,19 +86,24 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">Home</a>
+    <a class="nav-link" href="./index.html">
+ <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./past.html">Past</a>
+    <a class="nav-link" href="./past.html">
+ <span class="menu-text">Past</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./present.html">Present</a>
+    <a class="nav-link" href="./present.html">
+ <span class="menu-text">Present</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./comparing.html" aria-current="page">Comparing</a>
+    <a class="nav-link active" href="./comparing.html" aria-current="page">
+ <span class="menu-text">Comparing</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html">About</a>
+    <a class="nav-link" href="./about.html">
+ <span class="menu-text">About</span></a>
   </li>  
 </ul>
               <div class="quarto-toggle-container">
@@ -118,9 +123,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary">Summary</a></li>
-  <li><a href="#looking-at-broad-changes-vegetation-conversion" id="toc-looking-at-broad-changes-vegetation-conversion" class="nav-link" data-scroll-target="#looking-at-broad-changes-vegetation-conversion">Looking at broad changes, vegetation conversion</a></li>
-  <li><a href="#succession-classes-for-most-dominant-biophysical-settings" id="toc-succession-classes-for-most-dominant-biophysical-settings" class="nav-link" data-scroll-target="#succession-classes-for-most-dominant-biophysical-settings">Succession classes for most dominant Biophysical Settings</a></li>
+  <li><a href="#chord-diagram" id="toc-chord-diagram" class="nav-link active" data-scroll-target="#chord-diagram">Chord Diagram</a>
+  <ul class="collapse">
+  <li><a href="#quick-summary" id="toc-quick-summary" class="nav-link" data-scroll-target="#quick-summary">Quick Summary</a></li>
+  </ul></li>
+  <li><a href="#succession-classes-for-most-dominant-bpss" id="toc-succession-classes-for-most-dominant-bpss" class="nav-link" data-scroll-target="#succession-classes-for-most-dominant-bpss">Succession classes for most dominant BpSs</a>
+  <ul class="collapse">
+  <li><a href="#quick-summary-1" id="toc-quick-summary-1" class="nav-link" data-scroll-target="#quick-summary-1">Quick Summary</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -137,38 +147,44 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
+  
     
   </div>
   
 
 </header>
 
-<p>This page explores the concept of landscape conversion by comparing historical ecosystems (LANDFIRE BpSs) to current conditions represented by LANDFIRE Vegetation layers. These broad tools can be used to visualize the changes that have taken place within the Wyoming Sagebrush Subregion of the SRFSN.</p>
-<p>?WHAT DOES THIS MEAN - ? As noted on the “Present” page there are differences in the classification scheme so direct comparisons should be viewed with caution.</p>
-<section id="summary" class="level2">
-<h2 class="anchored" data-anchor-id="summary">Summary</h2>
-</section>
-<section id="looking-at-broad-changes-vegetation-conversion" class="level2">
-<h2 class="anchored" data-anchor-id="looking-at-broad-changes-vegetation-conversion">Looking at broad changes, vegetation conversion</h2>
-<p>This interactive ‘chord’ diagram allows you to explore changes on the landscape. To use:</p>
+<p>Using LANDFIRE’s BpS products, we explore two different ways to visualize past vs.current vegetation patterns. First we present <strong>changes in broad ecosystem types</strong> using an interactive chord diagram. Second we compare <strong>amounts of succession classes</strong> (past and present) for the most prevalent ecosystems.</p>
+<section id="chord-diagram" class="level2">
+<h2 class="anchored" data-anchor-id="chord-diagram">Chord Diagram</h2>
+<section id="quick-summary" class="level3">
+<h3 class="anchored" data-anchor-id="quick-summary">Quick Summary</h3>
 <ul>
-<li>Hover over the outer bands to see connections. For example, if you over over the dark green outer band of the “Past Conifer” group you can see that some is now mapped as converted, some hardwood, etc., and that the majority is still mapped as conifer.</li>
-<li>Alternatively, if you hover over the orange outer band of “Hardwood” you can see what the present extent of hardwoods vegetation was historically.</li>
-<li>The popups contain acres for the band.</li>
+<li>broadly speaking, this subregion has not experienced significant ecosystem changes as evidenced by the Shrubland ecosystem type - 25,195,980 acres (when compared with Past Shrubland ecosystem type - 28,047,610 acres)</li>
+<li>roughly 5 % of the entire subregion’s landscape was converted from riparian and shrubland ecosystems to present day agriculture</li>
 </ul>
 <iframe src="chord.html" height="720" width="720" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay" data-external=".5">
 </iframe>
 <p><br></p>
 </section>
-<section id="succession-classes-for-most-dominant-biophysical-settings" class="level2">
-<h2 class="anchored" data-anchor-id="succession-classes-for-most-dominant-biophysical-settings">Succession classes for most dominant Biophysical Settings</h2>
+</section>
+<section id="succession-classes-for-most-dominant-bpss" class="level2">
+<h2 class="anchored" data-anchor-id="succession-classes-for-most-dominant-bpss">Succession classes for most dominant BpSs</h2>
+<section id="quick-summary-1" class="level3">
+<h3 class="anchored" data-anchor-id="quick-summary-1">Quick Summary</h3>
+<ul>
+<li>For the BpS presented here there is an under representation of early successional classes (across all ecosystems)</li>
+<li>Inter-Mountain Basins Mat Saltbrush Shrubland / Montane Sagebrush Steppe both have substantial amounts of uncharacteristic native vegetation (which could be associated with Pinyon Juniper encroachment in the region <span class="citation" data-cites="Kori">@Kori</span>)</li>
+<li>Rocky Mountain Montane Riparian Systems have the highest level of agriculture</li>
+</ul>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="comparing_files/figure-html/scls%20chart-1.png" class="img-fluid" width="960"></p>
+<p><img src="comparing_files/figure-html/scls chart-1.png" class="img-fluid" width="960"></p>
 </div>
 </div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -304,7 +320,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   // Switch to dark mode if need be
   if (hasAlternateSentinel()) {
     toggleColorMode(true);
-  } 
+  } else {
+    toggleColorMode(false);
+  }
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
@@ -326,7 +344,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -362,24 +397,42 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>

@@ -21,8 +21,6 @@ Use this page as a starting point to explore the most prevalent BpSs in the SRFS
 
 ## Top 10 Biophysical Settings
 
-<br>
-
 
 ```{r bps chart, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=10}
 library(tidyverse)
@@ -44,8 +42,7 @@ bpsChart <-
   geom_bar(stat = "identity") +
   labs(
     title = "Top 10 Biophysical Settings",
-    subtitle = "Represents dominant vegetation systems pre-European colonization",
-    caption = "Data from landfire.gov.",
+    caption = "Data from landfire.gov; Chart © Randy Swaty",
     x = "",
     y = "Percent of landscape") +
   scale_x_discrete(limits = rev(bpsname$BPS_NAME),
@@ -60,8 +57,6 @@ bpsChart
 
 
 ## Most Prevalent Biophysical Settings
-
-<br>
 
 ![](images/bps.jpg){width=100%}
 
@@ -85,8 +80,7 @@ fireChart <-
   geom_bar(stat = "identity") +
   labs(
     title = "Cumulative estimates of all fire types prior to pre-European colonization",
-    subtitle = "",
-    caption = "\nData from landfire.gov.",
+    caption = "Data from landfire.gov; Chart © Randy Swaty",
     x = "",
     y = "Acres") +
   scale_x_discrete(limits = rev(annualFire$BPS_NAME),
