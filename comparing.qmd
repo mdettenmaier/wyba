@@ -17,8 +17,8 @@ Using LANDFIRE's BpS products, we explore two different ways to visualize past v
 ## Chord Diagram
 ### Quick Summary
 
-* broadly speaking, this subregion has not experienced significant ecosystem changes as evidenced by the Shrubland ecosystem type - 25,195,980 acres (when compared with Past Shrubland ecosystem type - 28,047,610 acres)
-* roughly 5 % of the entire subregion's landscape was converted from riparian and shrubland ecosystems to present day agriculture
+* Broadly speaking, this subregion has not experienced significant ecosystem changes as evidenced by the Shrubland ecosystem type - 25,195,980 acres (when compared with Past Shrubland ecosystem type - 28,047,610 acres)
+* Roughly 5 % of the entire subregion's landscape was converted from riparian and shrubland ecosystems to present day agriculture
 
 ```{r chord, echo=FALSE, message=FALSE, warning=FALSE, include=FALSE}
 # read in data
