@@ -12,13 +12,13 @@ library(tidyverse)
 
 ```
 
-Using LANDFIRE's BpS products, we explore two different ways to visualize past vs.current vegetation patterns. First we present **changes in broad ecosystem types** using an interactive chord diagram. Second we compare **amounts of succession classes** (past and present) for the most prevalent ecosystems. 
+Using LANDFIRE's BpS products, we explore two different ways to visualize past vs.current vegetation patterns. First we present **changes in broad ecosystem types** using an interactive comparison diagram. Second we compare **amounts of succession classes** (past and present) for the most prevalent ecosystems. 
 
-## Chord Diagram
-### Quick Summary
+## Comparing Broad Vegetation Trends
+### Summary
 
-* broadly speaking, this subregion has not experienced significant ecosystem changes as evidenced by the Shrubland ecosystem type - 25,195,980 acres (when compared with Past Shrubland ecosystem type - 28,047,610 acres)
-* roughly 5 % of the entire subregion's landscape was converted from riparian and shrubland ecosystems to present day agriculture
+* Broadly speaking, this subregion has not experienced significant ecosystem changes. For example, of the 28,047,610 acres of past sagebrush ecosystem(s) in the subregion, 25,195,980 acres remain classified as sagebrush. This means 2,851,630 acres of shrubland has been converted (to see what past shrubland was converted to, hover over "Past Shrubland" in the diagram below) in the subregion.
+* Roughly 5 % of the entire subregion's landscape was converted from riparian and shrubland ecosystems to present day agriculture.
 
 ```{r chord, echo=FALSE, message=FALSE, warning=FALSE, include=FALSE}
 # read in data
@@ -63,9 +63,9 @@ chord<-chorddiag(data = matrix_df,
                  groupColors = groupColors,
                  groupnamePadding = 10,
                  groupPadding = 3,
-                 groupnameFontsize = 11 ,
+                 groupnameFontsize = 12 ,
                  showTicks = FALSE,
-                 margin=150,
+                 margin=130,
                  tooltipGroupConnector = "    &#x25B6;    ",
                  chordedgeColor = "#363533"
 )
@@ -87,8 +87,8 @@ htmlwidgets::saveWidget(chord,
 
 ## Succession classes for most dominant BpSs
 ### Quick Summary
-- For the BpS presented here there is an under representation of early successional classes (across all ecosystems)
-- Inter-Mountain Basins Mat Saltbrush Shrubland / Montane Sagebrush Steppe both have substantial amounts of uncharacteristic native vegetation (which could be associated with Pinyon Juniper encroachment in the region @Kori)
+- For the BpS presented here there is an under-representation of early successional classes (across all ecosystems)
+- Inter-Mountain Basins Mat Saltbrush Shrubland / Montane Sagebrush Steppe both have substantial amounts of uncharacteristic native vegetation (may be associated with Pinyon Juniper encroachment in the region)
 - Rocky Mountain Montane Riparian Systems have the highest level of agriculture 
 
 
@@ -132,12 +132,11 @@ sclasplot <-
   labs(
     title = "Succession Classes past and present",
     subtitle = "5 BpSs selected for illustration. Not all succession classes present in all BpSs",
-    caption = "\nData from landfire.gov.",
+    caption = "Data from landfire.gov; Chart © Randy Swaty",
     x = "",
     y = "Percent")+
   theme_minimal(base_size = 14)+
-  theme(plot.caption = element_text(hjust = 0, face= "italic"), #Default is hjust=1
-        plot.title.position = "plot", #NEW parameter. Apply for subtitle too.
+  theme(plot.title.position = "plot", #NEW parameter. Apply for subtitle too.
         plot.caption.position =  "plot") +
   scale_fill_manual(values = c("#3d4740", "#32a852" ), # present (grey), historical (green)
                     name = " ", 

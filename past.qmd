@@ -14,9 +14,9 @@ Use this page as a starting point to explore the most prevalent BpSs in the SRFS
 
 ## Summary
 
-* Prior to European colonization, the most dominant vegetation system for this region was once [Inter-Mountain Basins Big Sagebrush Shrubland-Wyoming Big Sagebrush](https://landfirereview.org/search.php?q=Inter-Mountain%20Basins%20Big%20Sagebrush%20Shrubland-Wyoming%20Big%20Sagebrush&hPP=20&idx=lf_landfire_dev&p=0&is_v=1){target="blank"}. This system also burned on average 4x more than the next most common ecosystem (Inter-Mountain Basins Montane Sagebrush Steppe)
-* Within this subregion, the most prevalent LANDFIRE Mean Fire Return Interval (from BpS) was 76-100 years
-* Scroll down to explore the "historical disturbances per ecosystem" using the interactive web app 
+* Prior to European colonization, the most dominant vegetation system for this region was once [Inter-Mountain Basins Big Sagebrush Shrubland-Wyoming Big Sagebrush](https://landfirereview.org/search.php?q=Inter-Mountain%20Basins%20Big%20Sagebrush%20Shrubland-Wyoming%20Big%20Sagebrush&hPP=20&idx=lf_landfire_dev&p=0&is_v=1){target="blank"}. This system also burned on average 4x more than the next most common ecosystem (Inter-Mountain Basins Montane Sagebrush Steppe).
+* Within this subregion, the most prevalent LANDFIRE Mean Fire Return Interval (from BpS) was 76-100 years.
+* Scroll down to explore the "historical disturbances per ecosystem" using the interactive web app.
 
 
 ## Top 10 Biophysical Settings

@@ -12,17 +12,25 @@ library("patchwork")
 
 LANDFIRE's [Existing Vegetation Type, Cover and Height](https://landfire.gov/vegetation.php){target="blank"} datasets describe vegetation conditions. 
 
-* EVT - represents the current distribution of the terrestrial ecological systems classification, developed by NatureServe for the western hemisphere, through 2016
-* EVC - represents the vertically projected percent cover of the live canopy layer for a 30-m cell
-* EVH - represents the average height of the dominant vegetation for a 30-m cell
+* Existing Vegetation Type (EVT) - represents the current distribution of the terrestrial ecological systems classification, developed by NatureServe for the western hemisphere, through 2016
+* Existing Vegetation Cover (EVC) - represents the vertically projected percent cover of the live canopy layer for a 30-m cell
+* Existing Vegetation Height (EVH) - represents the average height of the dominant vegetation for a 30-m cell
 
 [Read more about LANDFIRE Vegetation Products](https://landfire.gov/vegetation.php){target="blank"}
 
 
 ## Summary
 
-* Not surprisingly, shrub cover is dominant in this subregion with most shrub height(s) concentrated between .5 m and .9 m
-* More than 60% of the landscape is dominated by sagebrush EVT
+* Not surprisingly, shrub cover is dominant in this subregion with most shrub height(s) concentrated between .5 m and .9 m.
+* More than 60% of the landscape is dominated by sagebrush EVT.
+
+## Most Prevalent Existing Vegetation Types
+
+<br>
+
+![](images/evt.jpg){width=100%}
+
+<br>
 
 ## Most Prevalent Existing Vegetation Types
 
@@ -55,19 +63,15 @@ evtChart
 
 <br>
 
-## Most Prevalent Existing Vegetation Types
-
-<br>
-
-![](images/evt.jpg){width=100%}
-
-<br>
 
 
 ## Existing Vegetation Cover
-The data from chart below is displayed spatially on the map (directly) below the chart. The colors on the graph correspond to the EVC classifications on the landscape and the map is a visual, spatial representation of the same information.
+The data from chart below is displayed spatially on the map (directly) above the chart. The colors on the graph correspond to the EVC classifications on the landscape and the map is a visual, spatial representation of the same information.
 
-For example, the majority of this subregion is classified as "shrub," which aligns with the information conveyed on the chart (above) where shrub cover comprises approximately 80% of the vegetation here.
+For example, the majority of this subregion is classified as "shrub," which aligns with the information conveyed on the chart where shrub cover comprises approximately 80% of the vegetation here.
+
+![](images/evc.jpg){width=100%}
+<br>
 
 ```{r evc chart, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
 evcname <- read.csv("data/evc_aoi_attributes.csv")
@@ -146,8 +150,8 @@ evcChart <-
   labs(
     title = "Existing Vegetation Cover",
     caption = "Data from landfire.gov; Chart © Randy Swaty",
-    x = "",
-    y = "Percent of landscape") +
+    x = "amount of landscape",
+    y = "most dominant lifeform") +
   scale_fill_identity() +
   coord_flip() +
   theme_bw(base_size = 12)+
@@ -158,11 +162,14 @@ evcChart
 
 
 ```
-![](images/evc.jpg){width=100%}
+
 <br>
 
 ## Existing Vegetation Height
-The data from chart below is displayed spatially on the map (directly) below the chart. The colors on the graph correspond to the EVH height classifications on the landscape showing how majority of the the vegetation height is concentrated in the .25-.9 m height category.
+The data from chart below is displayed spatially on the map (directly) above the chart. The colors on the graph correspond to the EVH height classifications on the landscape showing how majority of the the vegetation height is concentrated in the .25-.9 m height category.
+
+![](images/evh.jpg){width=100%}
+
 ```{r evh chart, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
 
 # load evh attribute table
@@ -265,5 +272,3 @@ evhChart
 
 
 ```
-
-![](images/evh.jpg){width=100%}

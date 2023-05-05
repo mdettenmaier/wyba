@@ -8,7 +8,7 @@ author: "Team LF"
 We will use [LANDFIRE](https://landfire.gov/){target="blank"} products to:
 
 1. Map and summarize past and present ecosystems and ecosystem conditions
-2. Explore historical disturbance regimes
+2. Explore historical disturbance patterns
 3. Summarize patterns of change and management opportunities
 
 
