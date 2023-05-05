@@ -17,8 +17,13 @@ Using LANDFIRE's BpS products, we explore two different ways to visualize past v
 ## Comparing Broad Vegetation Trends
 ### Summary
 
+<<<<<<< HEAD
 * Broadly speaking, this subregion has not experienced significant ecosystem changes. For example, of the 28,047,610 acres of past sagebrush ecosystem(s) in the subregion, 25,195,980 acres remain classified as sagebrush. This means 2,851,630 acres of shrubland has been converted (to see what past shrubland was converted to, hover over "Past Shrubland" in the diagram below) in the subregion.
 * Roughly 5 % of the entire subregion's landscape was converted from riparian and shrubland ecosystems to present day agriculture.
+=======
+* Broadly speaking, this subregion has not experienced significant ecosystem changes as evidenced by the Shrubland ecosystem type - 25,195,980 acres (when compared with Past Shrubland ecosystem type - 28,047,610 acres)
+* Roughly 5 % of the entire subregion's landscape was converted from riparian and shrubland ecosystems to present day agriculture
+>>>>>>> a2d5db268d14a719e7d7c751c75f6ab8efbd07e0
 
 ```{r chord, echo=FALSE, message=FALSE, warning=FALSE, include=FALSE}
 # read in data

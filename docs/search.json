@@ -35,25 +35,18 @@
     "text": "Using LANDFIRE’s BpS products, we explore two different ways to visualize past vs.current vegetation patterns. First we present changes in broad ecosystem types using an interactive comparison diagram. Second we compare amounts of succession classes (past and present) for the most prevalent ecosystems."
   },
   {
-    "objectID": "comparing.html#summary",
-    "href": "comparing.html#summary",
+    "objectID": "comparing.html#chord-diagram",
+    "href": "comparing.html#chord-diagram",
     "title": "Comparing Past vs. Present Conditions",
-    "section": "Summary",
-    "text": "Summary"
+    "section": "Chord Diagram",
+    "text": "Chord Diagram\n\nQuick Summary\n\nBroadly speaking, this subregion has not experienced significant ecosystem changes as evidenced by the Shrubland ecosystem type - 25,195,980 acres (when compared with Past Shrubland ecosystem type - 28,047,610 acres)\nRoughly 5 % of the entire subregion’s landscape was converted from riparian and shrubland ecosystems to present day agriculture"
   },
   {
-    "objectID": "comparing.html#looking-at-broad-changes-vegetation-conversion",
-    "href": "comparing.html#looking-at-broad-changes-vegetation-conversion",
+    "objectID": "comparing.html#succession-classes-for-most-dominant-bpss",
+    "href": "comparing.html#succession-classes-for-most-dominant-bpss",
     "title": "Comparing Past vs. Present Conditions",
-    "section": "Looking at broad changes, vegetation conversion",
-    "text": "Looking at broad changes, vegetation conversion"
-  },
-  {
-    "objectID": "comparing.html#succession-classes-for-most-dominant-biophysical-settings",
-    "href": "comparing.html#succession-classes-for-most-dominant-biophysical-settings",
-    "title": "Comparing Past vs. Present Conditions",
-    "section": "Succession classes for most dominant Biophysical Settings",
-    "text": "Succession classes for most dominant Biophysical Settings\n\nFor the BpS presented here there is an under representation of early successional classes (across all ecosystems)\nInter-Mountain Basins Mat Saltbrush Shrubland / Montane Sagebrush Steppe both have substantial amounts of uncharacteristic native vegetation (Pinyon Juniper encroachment? @Kori)\nRocky Mountain Montane Riparian Systems have the highest level of agriculture"
+    "section": "Succession classes for most dominant BpSs",
+    "text": "Succession classes for most dominant BpSs\n\nQuick Summary\n\nFor the BpS presented here there is an under representation of early successional classes (across all ecosystems)\nInter-Mountain Basins Mat Saltbrush Shrubland / Montane Sagebrush Steppe both have substantial amounts of uncharacteristic native vegetation (which could be associated with Pinyon Juniper encroachment in the region @Kori)\nRocky Mountain Montane Riparian Systems have the highest level of agriculture"
   },
   {
     "objectID": "index.html",
@@ -172,6 +165,7 @@
     "href": "present.html#existing-vegetation-height",
     "title": "Present",
     "section": "Existing Vegetation Height",
+<<<<<<< HEAD
     "text": "Existing Vegetation Height\nThe data from chart below is displayed spatially on the map (directly) above the chart. The colors on the graph correspond to the EVH height classifications on the landscape showing how majority of the the vegetation height is concentrated in the .25-.9 m height category."
   },
   {
@@ -229,5 +223,8 @@
     "title": "Comparing Past vs. Present Conditions",
     "section": "Comparing Broad Vegetation Trends",
     "text": "Comparing Broad Vegetation Trends\n\nSummary\n\nBroadly speaking, this subregion has not experienced significant ecosystem changes. For example, of the 28,047,610 acres of past sagebrush ecosystem(s) in the subregion, 25,195,980 acres remain classified as sagebrush. This means 2,851,630 acres of shrubland has been converted (to see what past shrubland was converted to, hover over “Past Shrubland” in the diagram below) in the subregion.\nRoughly 5 % of the entire subregion’s landscape was converted from riparian and shrubland ecosystems to present day agriculture."
+=======
+    "text": "Existing Vegetation Height\nThe data from chart below is displayed spatially on the map (directly) below the chart. The colors on the graph correspond to the EVH height classifications on the landscape showing how majority of the the vegetation height is concentrated in the .25-.9 m height category."
+>>>>>>> a2d5db268d14a719e7d7c751c75f6ab8efbd07e0
   }
 ]
