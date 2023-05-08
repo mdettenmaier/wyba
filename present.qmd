@@ -173,7 +173,7 @@ The data from chart below is displayed spatially on the map (directly) above the
 ```{r evh chart, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
 
 # load evh attribute table
-evhname <- read.csv(file = "data/evh_aoi_attributes.csv")
+evhname <- read.csv(file = "data/evh_aoi_arc.csv")
 
 
 # create "type" column based on conditions
