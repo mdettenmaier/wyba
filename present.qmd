@@ -1,5 +1,5 @@
 ---
-title: "Present"
+title: "Present: Current Ecosystem Conditions"
 ---
 
 ```{r include=FALSE, echo=FALSE, message=FALSE, warning=FALSE}
@@ -21,7 +21,7 @@ LANDFIRE's [Existing Vegetation Type, Cover and Height](https://landfire.gov/veg
 
 ## Summary
 
-* Not surprisingly, shrub cover is dominant in this subregion with most shrub height(s) concentrated between .5 m and .9 m.
+* Shrub cover is dominant in this subregion with most shrub height(s) concentrated between .5 m and .9 m.
 * More than 60% of the landscape is dominated by sagebrush EVT.
 
 ## Most Prevalent Existing Vegetation Types
@@ -66,9 +66,10 @@ evtChart
 
 
 ## Existing Vegetation Cover
-The data from chart below is displayed spatially on the map (directly) above the chart. The colors on the graph correspond to the EVC classifications on the landscape and the map is a visual, spatial representation of the same information.
+The Existing Vegetation Cover (EVC) map is a visual representation of EVC classifications across the subregion. The chart below the map provides a breakdown of each vegetation cover classification and their relative dominance across the subregion
 
-For example, the majority of this subregion is classified as "shrub," which aligns with the information conveyed on the chart where shrub cover comprises approximately 80% of the vegetation here.
+From this information, we can see that the majority of this subregion is classified as “shrub,” comprising approximately 80% of the vegetation cover.”
+
 
 ![](images/evc.jpg){width=100%}
 <br>
@@ -166,7 +167,9 @@ evcChart
 <br>
 
 ## Existing Vegetation Height
-The data from chart below is displayed spatially on the map (directly) above the chart. The colors on the graph correspond to the EVH height classifications on the landscape showing how majority of the the vegetation height is concentrated in the .25-.9 m height category.
+The Existing Vegetation Height (EVH) map showcases EVH across the subregion. The chart below the map provides the percentage of the landscape represented by each EVH height.
+
+From these results, we can see the majority of vegetation on the landscape is .25-.9 meters high.
 
 ![](images/evh.jpg){width=100%}
 
