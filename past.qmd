@@ -1,15 +1,11 @@
 ---
 title: "Past: Historical Ecosystems"
 ---
-=======
+### LANDFIRE's Biophysical Settings (BpSs)
 
-LANDFIRE's Biophysical Settings (BpSs)
+BpS models represent the vegetation system that may have been dominant on the landscape prior to Euro-American settlement. These models are based on a combination of the current environment and an approximation of the historical disturbance regime. [Read more](https://landfire.gov/bps.php){target="blank"}.
 
-<<<<<<< HEAD
->**BpS models represent the vegetation system that may have been dominant on the landscape prior to Euro-American settlement. These models are based on a combination of the current environment and an approximation of the historical disturbance regime.** [Read more](https://landfire.gov/bps.php){target="blank"}.
-=======
->**BpS models represent the vegetation system that may have been dominant on the landscape prior to Euro-American settlement. These models are based on a combination of the current environment and an approximation of the historical disturbance regime.** =[Read more](https://landfire.gov/bps.php){target="blank"}.
->>>>>>> 0cc52db80d954e0ace538c3617d90aebaef86db1
+>*BpS models represent the vegetation system that may have been dominant on the landscape prior to Euro-American settlement. These models are based on a combination of the current environment and an approximation of the historical disturbance regime.* [Read more](https://landfire.gov/bps.php){target="blank"}.
 
 Check out this 3-minute tutorial for a quick refresher on the [basics of Biophysical Settings Models](https://youtu.be/xjaWJCe7udQ){target="blank"}.
 
@@ -22,9 +18,6 @@ Use this page as a starting point to explore the most prevalent BpSs in the SRFS
 * The most prevalent LANDFIRE Mean Fire Return Interval (from BpS) was 76-100 years.
 
 Scroll down to explore the "historical disturbances per ecosystem" using the interactive web app.
-
-
-## Top 10 Biophysical Settings
 
 
 ## Most Prevalent Biophysical Settings
