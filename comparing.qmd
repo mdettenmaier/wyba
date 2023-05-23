@@ -12,18 +12,18 @@ library(tidyverse)
 
 ```
 
-Using LANDFIRE's BpS products, we explore two different ways to visualize past vs.current vegetation patterns. First we present **changes in broad ecosystem types** using an interactive comparison diagram. Second we compare **amounts of succession classes** (past and present) for the most prevalent ecosystems. 
+Using LANDFIRE’s BpS products, we explore two different ways to visualize past vs. current vegetation patterns. 
+
+* First we present **changes in broad ecosystem types** using an interactive comparison diagram. 
+
+*Second we compare **amounts of succession classes** (past and present) for the most prevalent ecosystems. 
 
 ## Comparing Broad Vegetation Trends
 ### Summary
 
-<<<<<<< HEAD
-* Broadly speaking, this subregion has not experienced significant ecosystem changes. For example, of the 28,047,610 acres of past sagebrush ecosystem(s) in the subregion, 25,195,980 acres remain classified as sagebrush. This means 2,851,630 acres of shrubland has been converted (to see what past shrubland was converted to, hover over "Past Shrubland" in the diagram below) in the subregion.
-* Roughly 5 % of the entire subregion's landscape was converted from riparian and shrubland ecosystems to present day agriculture.
-=======
-* Broadly speaking, this subregion has not experienced significant ecosystem changes as evidenced by the Shrubland ecosystem type - 25,195,980 acres (when compared with Past Shrubland ecosystem type - 28,047,610 acres)
-* Roughly 5 % of the entire subregion's landscape was converted from riparian and shrubland ecosystems to present day agriculture
->>>>>>> a2d5db268d14a719e7d7c751c75f6ab8efbd07e0
+* Broadly speaking, this subregion has not experienced significant ecosystem changes. Out of over 28 million acres of past sagebrush ecosystem(s) in the subregion, over 25 million acres remain as sagebrush. (To explore what these shrublands have converted to, hover over “Past Shrubland” in the diagram below.) 
+
+* However, over 2.8 million acres of shrubland have been converted in the subregion. Roughly 5% of the subregion was converted from riparian and shrubland ecosystems to agriculture.”
 
 ```{r chord, echo=FALSE, message=FALSE, warning=FALSE, include=FALSE}
 # read in data
@@ -91,9 +91,8 @@ htmlwidgets::saveWidget(chord,
 <br>
 
 ## Succession classes for most dominant BpSs
-### Quick Summary
-- For the BpS presented here there is an under-representation of early successional classes (across all ecosystems)
-- Inter-Mountain Basins Mat Saltbrush Shrubland / Montane Sagebrush Steppe both have substantial amounts of uncharacteristic native vegetation (may be associated with Pinyon Juniper encroachment in the region)
+- There is an under-representation of early successional classes across all ecosystems types in this subregion
+- Inter-Mountain Basins Mat Saltbrush Shrubland / Montane Sagebrush Steppe both have substantial amounts of uncharacteristic native vegetation, which may be associated with Pinyon Juniper encroachment
 - Rocky Mountain Montane Riparian Systems have the highest level of agriculture 
 
 
@@ -156,4 +155,5 @@ sclasplot
 
 ```
 
+## Management Opportunities
 
