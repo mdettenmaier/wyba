@@ -1,6 +1,6 @@
 ---
 title: "Wyoming Sagebrush Subregion Landscape Assessment"
-author: "Team LF"
+author: "TNC's LANDFIRE Team, Conservation Data Lab"
 ---
 
 ## Goals of this quick demonstration
