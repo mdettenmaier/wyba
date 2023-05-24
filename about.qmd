@@ -18,7 +18,7 @@ LANDFIRE provides 25+ national geo-spatial layers (e.g. vegetation, fuel, distur
 ## Conservation Data Lab
 The dynamic members of the [Conservation Data Lab](https://conservationdatalab.org/){target="blank"} have been coding, creating and supporting natural resource decisions since 2020. Led by TNC Ecologist, Randy Swaty, the CDL meets weekly to collaborate, problem solve, try out (and break) code, create cool maps and produce insightful data visualizations (among other things). 
 
-Check out the CDL's [2022 Accomplishments here](https://conservationdatalab.org/year_end_2022.html){targe="blank"} 
+Check out the CDL's [2022 Accomplishments here](https://conservationdatalab.org/year_end_2022.html){target="blank"}. 
 
 CDL members donated their time to complete this web app for the SRFSN. Projects like these provide real-life opportunities to apply new techniques to answer common natural resource questions. 
 
