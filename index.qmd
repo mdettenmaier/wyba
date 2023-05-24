@@ -72,7 +72,7 @@ quickmap
 * All maps, input datasets and further assistance can be obtained by contacting the author, [Randy Swaty](mailto:rswaty@tnc.org){target="blank"}
 * QAQC is ongoing
 * To share this web app, simply share the hyperlink
-* This webpage represents one of the five SRFSN Subregions. LANDFIRE Assessments for the other subregions can be found here [Include HyperLink]
+
 
 
 
