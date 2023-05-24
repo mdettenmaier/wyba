@@ -54,7 +54,12 @@ library(tmap)
 tmap_mode("view")
 
 # create a quick interactive map
-quickmap <- qtm(shp, borders = "darkgreen",  check.and.fix = TRUE)
+quickmap <- qtm(shp, 
+                borders = "darkgreen", 
+                fill = NULL, 
+                check.and.fix = TRUE, 
+                basemaps = 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}',
+                title = 'Wyoming Sagebrush Subregion',)
 
 quickmap
 
