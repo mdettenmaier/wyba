@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "About this Project",
     "section": "",
-    "text": "The data compiled for this Southern Rockies Fire Science Network “Subregion” is the result of a volunteer project that supports information dissemination and natural resource management decisions within the 6 subregions of the SRFSN. Why subregions? Learn more here"
+    "text": "The data compiled for this Southern Rockies Fire Science Network “Subregion” is the result of a volunteer project that supports information dissemination and natural resource management decisions within the 5 subregions of the SRFSN. Why subregions? Learn more here."
   },
   {
     "objectID": "about.html#the-nature-conservancy-landfire",
@@ -46,7 +46,7 @@
     "href": "comparing.html#comparing-broad-vegetation-trends",
     "title": "Comparisons",
     "section": "Comparing Broad Vegetation Trends",
-    "text": "Comparing Broad Vegetation Trends\n\nSummary\n\nBroadly speaking, this subregion has not experienced significant ecosystem changes. Out of over 28 million acres of past sagebrush ecosystem(s) in the subregion, over 25 million acres remain as sagebrush. (To explore what these shrublands have converted to, hover over “Past Shrubland” in the diagram below.)\nHowever, over 2.8 million acres of shrubland have been converted in the subregion. Roughly 5% of the subregion was converted from riparian and shrubland ecosystems to agriculture.”"
+    "text": "Comparing Broad Vegetation Trends\n\nSummary\n\nBroadly speaking, this subregion has not experienced significant ecosystem changes. Out of over 28 million acres of past sagebrush ecosystem(s) in the subregion, over 25 million acres remain as sagebrush. (To explore what these shrublands have converted to, hover over “Past Shrubland” in the diagram below.)\nHowever, over 2.8 million acres of shrubland have been converted in the subregion. Roughly 5% of the subregion was converted from riparian and shrubland ecosystems to agriculture."
   },
   {
     "objectID": "comparing.html#succession-classes-for-most-dominant-bpss",
@@ -67,7 +67,7 @@
     "href": "index.html#assessment-location",
     "title": "Wyoming Sagebrush Subregion Landscape Assessment",
     "section": "Assessment Location",
-    "text": "Assessment Location\nThe SRFSN Wyoming Sagebrush Subregion is located in Central/South central Wyoming and far northwestern Colorado Read more"
+    "text": "Assessment Location\nThe SRFSN Wyoming Sagebrush Subregion is located in Central/South central Wyoming and far northwestern Colorado- Read more."
   },
   {
     "objectID": "index.html#how-to-use-this-web-report",
@@ -137,7 +137,7 @@
     "href": "present.html#summary",
     "title": "Present: Current Ecosystem Conditions",
     "section": "Summary",
-    "text": "Summary\n\nShrub cover is dominant in this subregion with most shrub height(s) concentrated between .5 m and .9 m.\nMore than 60% of the landscape is dominated by sagebrush EVT."
+    "text": "Summary\n\nMore than 60% of the landscape is dominated by sagebrush EVT."
   },
   {
     "objectID": "present.html#most-prevalent-existing-vegetation-types",
