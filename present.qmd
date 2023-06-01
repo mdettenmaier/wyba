@@ -21,7 +21,6 @@ LANDFIRE's [Existing Vegetation Type, Cover and Height](https://landfire.gov/veg
 
 ## Summary
 
-* Shrub cover is dominant in this subregion with most shrub height(s) concentrated between .5 m and .9 m.
 * More than 60% of the landscape is dominated by sagebrush EVT.
 
 ## Most Prevalent Existing Vegetation Types
